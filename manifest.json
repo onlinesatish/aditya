@@ -1,0 +1,20 @@
+{
+  "short_name": "Adiya-Aditi",
+  "name": "Aditya Aditi Animation",
+  "icons": [
+    {
+      "src": "/img/aaa-128-min.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/img/aaa-512-min.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "theme_color": "#3367D6"
+}
