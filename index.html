@@ -112,24 +112,18 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 		<!-- MDB core JavaScript -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.0/js/mdb.min.js"></script>
-		<!-- Mobile Menu JavaScript -->
-		<script src="js/mobileMenu.js"></script>
-		<!-- Swipe Detect JavaScript -->
-		<script src="js/swipeDetect.js"></script>
-		<!-- Protect Image JavaScript -->
-		<script src="js/protect-img.js"></script>
 		<script>
 		var text = 'BY : Satish Kumar Sharma';
 		var canvas = document.createElement("canvas");
 		var fontSize = 24;
 		canvas.setAttribute('height', fontSize);
 		var context = canvas.getContext('2d');
-		context.fillStyle    = 'rgba(0,0,0,0.05)';
+		context.fillStyle    = 'rgba(0,0,0,0.025)';
 		context.font         = fontSize + 'px sans-serif';
 		context.fillText(text, 0, fontSize);
 		
 		$('body').css({'background-image':"url(" + canvas.toDataURL("image/png")+ ")" });
-		//
+		
 		
 		
 		function AutoRefresh( t ) {
